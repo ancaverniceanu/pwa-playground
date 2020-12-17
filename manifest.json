@@ -1,6 +1,7 @@
 {
-  "name": "PWA playground",
-  "start_ul": "/?home=true",
+  "name": "PWA Playground",
+  "short_name": "PWAPlayground",
+  "start_ul": "/index.html",
   "icons": [    
     {
       "src": "icons/manifest-icon-192.png",
@@ -16,7 +17,7 @@
     }
   ],
   "theme_color": "#000000",
-  "bckground_color": "#000000",
+  "background_color": "#000000",
   "display": "fullscreen",
   "orientation": "portrait"
 }
