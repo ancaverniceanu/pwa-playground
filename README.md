@@ -1,5 +1,9 @@
 This is a playground for PWA
 
+## Live URL
+
+[https://todo-pwa-fbe46.web.app/](https://todo-pwa-fbe46.web.app/)
+
 ## Getting Started
 
 First, run the development server:
@@ -8,7 +12,7 @@ First, run the development server:
   npx serve
 ```
 
-Open [http://localhost:5000](http://localhost:5000) with your browser to see the result.
+Open [http://localhost:5500](http://localhost:5500) with your browser to see the result.
 
 ## Learn More
 
