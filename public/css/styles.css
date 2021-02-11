@@ -1,0 +1,67 @@
+/* colours */
+:root {
+  --primary: #ede9fe;
+  --secondary: #ddd6fe;
+  --title: #7c3aed;
+}
+
+/* layout styles */
+nav {
+  background: var(--primary);
+  border-bottom: 10px solid var(--secondary);
+}
+nav a {
+  text-transform: uppercase;
+  color: var(--title);
+}
+nav a span {
+  font-weight: bold;
+}
+nav .sidenav-trigger {
+  margin: 0;
+}
+
+/* todo styles */
+.todos {
+  margin-top: 20px;
+}
+.card-panel.todo {
+  display: grid;
+  grid-template-columns: 8fr 2fr;
+  grid-template-areas: 'details delete';
+  position: relative;
+}
+.todo-details {
+  grid-area: details;
+  margin-top: 6px;
+}
+.todo-delete {
+  grid-area: delete;
+  position: absolute;
+  top: 50%;
+  margin-top: -9px;
+  right: 0px;
+  cursor: pointer;
+}
+.todo-delete i {
+  font-size: 18px;
+}
+.todo-title {
+  font-weight: bold;
+}
+
+/* form-styles */
+.add-btn {
+  background: var(--title) !important;
+}
+input {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+.side-form button {
+  background: var(--title);
+  box-shadow: 1px 1px 3px rgba(90, 90, 90, 0.2);
+}
+form .input-field {
+  margin-top: 30px;
+}
